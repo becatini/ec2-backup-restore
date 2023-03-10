@@ -1,7 +1,7 @@
 # Automated Way to Restore an EC2 Instance
 
 ## Overview
-This script can be useful if you need to restore a specific EC2 instance through an automated process. <br />
+This script can be useful if you need to restore a specific EC2 instance if the backup was created through AMI. <br />
 This process will be split into three steps. <br />
 <br />
 The scripts can be executed on a terminal (putty) or AWS Cloudshell.
@@ -24,8 +24,8 @@ E.g. if you provide the word **restored** for the EC2 name, it will search all i
 *Script: ami_backup.sh*
 
 - It will create one AMI for each selected instance.
-- E.g. ami_<instance_name>.txt
-- Those files will be used to restore the AMI if necessary.
+- Also a .txt file will be created. E.g. ami_<instance_name>.txt
+- Those .txt files will be used to restore the AMI if necessary.
 
 ![My Image](images/image2.png)
 

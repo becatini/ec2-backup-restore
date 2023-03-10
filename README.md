@@ -18,6 +18,8 @@ When the script, you have to provide the **region** and **EC2 name** defined on 
 
 E.g. if you provide the word restored for the EC2 name, it will search all instances with that name.
 
+![My Image](images/image1.png)
+
 ## 2. Creating an AMI
 *Script: ami_backup.sh*
 

@@ -3,7 +3,9 @@
 ## Overview
 This script can be useful if you need to restore a specific EC2 instance if the backup was created through AMI. <br />
 This process will be split into three steps. <br />
-<br />
+
+Very useful if you're working on a migration, testing or troubleshooting.
+
 The scripts can be executed on a terminal (putty) or AWS Cloudshell.
 
 ## 1. Collect the EC2 info
